@@ -33,12 +33,15 @@
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4 flex justify-between items-center">
             <!-- Logo/Brand Name -->
             <!-- Updated to use an image -->
-            <a href="#" class="h-8">
-                <img src="image.png" alt="Cozy Crafting Logo" class="h-8 w-auto">
+            <a href="#" class="h-12 flex-shrink-0">
+                <img src="image.png" alt="Cozy Crafting Logo" class="h-12 w-auto">
             <!--h1 class="text-3xl font-extrabold text-cozy tracking-tight">Cozy Crafting</h1-->
-
-            <!-- Cart Icon/Count -->
-            <div id="cart-button" class="relative cursor-pointer p-2 rounded-full hover:bg-gray-100 transition">
+            <!-- 2. Center: Text Title -->
+            <div class="flex-1 text-center">
+                <h1 class="text-3xl sm:text-4xl font-extrabold text-cozy tracking-tight">Cozy Crafting</h1>
+            </div>
+            <!-- 3. Right: Cart Icon (Positioned on the right) -->
+            <div id="cart-button" class="relative cursor-pointer p-2 rounded-full hover:bg-gray-100 transition flex-shrink-0">
                 <svg xmlns="http://www.w3.org/2000/svg" class="h-7 w-7 text-cozy" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M16 11V7a4 4 0 00-8 0v4M5 9h14l1 12H4L5 9z" />
                 </svg>
@@ -62,9 +65,9 @@
         <section class="bg-cozy rounded-3xl p-8 mb-12 shadow-lg">
             <div class="md:flex items-center">
                 <div class="md:w-1/2 mb-6 md:mb-0">
-                    <h2 class="text-4xl font-bold text-cozy mb-3">Crafted with Heart. Built for You.</h2>
+                    <h2 class="text-4xl font-bold text-cozy mb-3">Hecho con amor. Laborado para ti!</h2>
                     <p class="text-gray-700 mb-6 text-lg">
-                        Discover unique, handmade items—from stylish canvas totes to charming decorations—made by local artisans with a passion for quality and coziness.
+                        Descubra artículos únicos hechos a mano, desde elegantes bolsos de canvas hasta encantadoras decoraciones, elaborados por Amarilis con pasión, calidad y deleite.
                     </p>
                     <button onclick="document.getElementById('products').scrollIntoView({ behavior: 'smooth' });" class="btn-primary text-white font-semibold py-3 px-8 rounded-full shadow-md hover:shadow-lg">
                         Shop Now
